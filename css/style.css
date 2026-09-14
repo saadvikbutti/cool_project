@@ -43,13 +43,30 @@ nav {
 }
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
   padding: 88px 48px 24px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 320px;
 }
 
 .hero h2 {
   margin: 0;
   font-size: 48px;
   line-height: 1.15;
+}
+
+.hero-illustration {
+  flex: 1;
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 #createVault {
