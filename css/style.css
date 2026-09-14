@@ -15,22 +15,9 @@ body {
 }
 
 nav {
-  display: flex;
-  align-items: center;
   padding: 20px 48px;
   background-color: #ffffff;
   border-bottom: 1px solid #e2e8f0;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-mark {
-  display: block;
-  border-radius: 8px;
 }
 
 .logo,
